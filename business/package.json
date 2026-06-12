@@ -1,0 +1,25 @@
+{
+  "name": "business-animations",
+  "version": "1.0.0",
+  "description": "Remotion-Setup zum Erstellen von Animationen und Videos",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "studio": "remotion studio",
+    "render": "remotion render HelloWorld out/video.mp4",
+    "render:still": "remotion still HelloWorld out/frame.png",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/web": "^0.0.99",
+    "typescript": "^5.4.5"
+  }
+}
